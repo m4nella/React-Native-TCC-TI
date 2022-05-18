@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { Button, View, Text } from 'react-native';
+import { Button, View, Text, ImageBackground, Image, TouchableOpacity, } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { createDrawerNavigator } from '@react-navigation/drawer';
+import { createDrawerNavigator, DrawerContentScrollView, DrawerItemList, } from '@react-navigation/drawer';
 
 function HomeScreen({ navigation }) {
   return (
@@ -154,6 +154,7 @@ function App() {
       </Stack.Navigator>
     </NavigationContainer>
   );
+
 }
 
 export default App;
